@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Taerang's Website</title>
+    <!-- CSS Import -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap Import -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+  <body class="background-color">
+    <!-- Navigation Bar -->
+    <div class="nav-styles">
+      <nav class="navbar navbar-expand navbar-dark">
+        <ul class="navbar-nav navbar-align">
+          <li class="nav-item">
+            <a class="nav-link navbar-font" href=#about-me>About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-font" href=#research>Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-font" href=#contact-me>Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  <!-- Photo / Landing Section -->
+  <div class="photo-table">
+    <table class="table-whole">
+      <tr>
+        <td>
+          <img src="Tae.png" class="image-sizing">
+        </td>
+        <td>
+          <div class="table-width">
+            <button type="button" class="btn" id="title-button">
+              Hi! I'm Taerang :)
+            </button>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- About Me Section -->
+  <div class="about-me block-background" id="about-me">
+    <div class="block-text">
+      <h1 class="orange-text section-title">About me</h1>
+      <p>
+        I'm a junior studying Mechenical Engieering at Cal!<br>
+        My concentration within this major is mainly control and dynamics,
+        and I am excited to become a mechanical engineer in the field of cars and electronic products.<br>
+        My passions within Mechanical Engineering are always evolving,
+        so I'm very open to exploring all there is to this field. <br>
+        <br/>
+      </p>
+    </div>
+  </div>
+
+  <!-- Research Section -->
+  <div class="research block-background" id="research">
+    <div id="carouselExampleIndicators" class="carousel slide block-text" data-bs-ride="true">
+      <h1 class="white-text section-title">Research & Projects</h1>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-text active">
+          <h2 class="orange-text"> Mechanical Systems Control Lab Assistant </h2>
+          <p>
+            - Collected and processed the densely interactive behavior of the car and categorized about 6 different scenarios into Ego, Reactive, IDM vehicle, internal predictor, and external predictor around the roundabout.
+            <br>
+            - Engineered algorithms by gathering data and analyzing complex scenarios like negotiations, inexplicit right-of-way, irrational behavior, near-collision situations
+          </p>
+        </div>
+        <div class="carousel-item carousel-text">
+          <h2 class="orange-text">Mechatronics Projects</h2>
+          <p>
+            <a href = "New_Automatic Wrapper.html">
+              <button type="button" class="btn contact-button">Automatic Wrapper 😊</button> <br>
+            </a>
+            <a href = "New_IOT application.html">
+              <button type="button" class="btn contact-button">IoT application 😚</button>
+            </a>
+          </p>
+        </div>
+        <div class="carousel-item carousel-text">
+          <h2 class="orange-text">Development of heat-generating ALGINATE-PCL Co-polymer invaded calcium powder under IR-radiation for green deicer</h2>
+          <p>
+            We tried to create an environmentally benign deicing agent that can replace toxic sodium chloride. Calcium phosphate, PCL and ALGINATE biocopolymer were used to prepare the bioceramic. We tested the exothermic property under FIR. The results showed that the exothermic properties of eggshells are reinforced when they are exposed to infirm IR radiation: the deicing performance of eggshells is better than that of sodium chloride without the harmful effects on the environment.
+          </p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="contact-me block-background">
+    <h1 class="contact-title section-title" id="contact-me">Contact Me!</h1>
+    <table class="contact-inner">
+      <tr class="table-row">
+        <td>
+          <a href="https://www.linkedin.com/in/taerang-lee/">
+            <button type="button" class="btn contact-button">LinkedIn  🔗</button>
+          </a>
+        </td>
+        <td>
+          <a href="mailto:trlee24@berkeley.edu">
+            <button type="button" class="btn contact-button">Email  ✉️</button>
+          </a>
+        </td>
+        <td>
+          <a href="https://www.facebook.com/profile.php?id=100004226867635">
+            <button type="button" class="btn contact-button">Facebook  🐦</button>
+          </a>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  </body>
+</html>

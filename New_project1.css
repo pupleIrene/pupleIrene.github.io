@@ -1,0 +1,110 @@
+.background-color {
+  background-color: #D6E4E5;
+}
+
+.nav-styles {
+  background-color: tan;
+}
+
+.navbar-align {
+  margin-left: auto;
+}
+
+.navbar-font {
+  margin-right: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.table-whole {
+  width: 100%;
+}
+
+#title-button {
+  background-color: tan;
+  color: white;
+  padding: 40px;
+  border-radius: 100px;
+  font-size: 30px;
+  display: block;
+  margin: auto;
+}
+
+.image-sizing {
+  border-radius: 60px;
+  width: 600px;
+}
+
+.photo-table {
+  margin: 50px;
+}
+
+.about-me {
+  background-color: #EFF5F5;
+}
+
+.block-background {
+  border-radius: 40px;
+  margin: 50px;
+}
+
+.block-text {
+  padding: 50px;
+}
+
+.research {
+  background-color: tan;
+}
+
+.carousel-text {
+  height: 350px;
+  width: 100%;
+  color: #274345;
+  background-color: white;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.orange-text {
+  color: burlywood;
+}
+
+.white-text {
+  color: white;
+}
+
+.section-title {
+  margin-bottom: 20px;
+}
+
+.contact-me {
+  background-color: #EFF5F5;
+  height: 240px;
+}
+
+.contact-inner {
+  margin: auto;
+}
+
+.table-row {
+  height: 100px;
+}
+
+.contact-title {
+  padding: 50px 0 0 50px;
+  color: burlywood;
+}
+
+.contact-button {
+  margin: 0 30px;
+}
+
+.high-level {
+  margin: auto;
+  margin-left: 30%;
+}
+
+.presentation {
+  margin-left: 47%;
+  margin-top: 10%;
+}

@@ -1,0 +1,100 @@
+.background-color {
+  background-color: #F3E8EB;
+}
+
+.nav-styles {
+  background-color: #CDA4CB;
+}
+
+.navbar-align {
+  margin-left: auto;
+}
+
+.navbar-font {
+  margin-right: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.table-whole {
+  width: 100%;
+}
+
+#title-button {
+  background-color: #99DBDA;
+  color: white;
+  padding: 40px;
+  border-radius: 100px;
+  font-size: 30px;
+  display: block;
+  margin: auto;
+}
+
+.image-sizing {
+  border-radius: 40px;
+  width: 400px;
+}
+
+.photo-table {
+  margin: 50px;
+}
+
+.about-me {
+  background-color: #99DBDA;
+}
+
+.block-background {
+  border-radius: 40px;
+  margin: 50px;
+}
+
+.block-text {
+  padding: 50px;
+}
+
+.research {
+  background-color: #9ED8A1;
+}
+
+.carousel-text {
+  height: 350px;
+  width: 100%;
+  color: #274345;
+  background-color: white;
+  padding: 50px;
+  border-radius: 40px;
+}
+
+.orange-text {
+  color: #354649;
+}
+
+.white-text {
+  color: white;
+}
+
+.section-title {
+  margin-bottom: 20px;
+}
+
+.contact-me {
+  background-color: #E1EB96;
+  height: 240px;
+}
+
+.contact-inner {
+  margin: auto;
+}
+
+.table-row {
+  height: 100px;
+}
+
+.contact-title {
+  padding: 50px 0 0 50px;
+  color: #274345;
+}
+
+.contact-button {
+  margin: 0 30px;
+}
